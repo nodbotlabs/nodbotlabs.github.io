@@ -356,17 +356,339 @@
       'script.creative.tech.item4': '高清投影显示系统',
       'script.creative.tech.item5': '自然音效与语音交互'
     }
+    ,
+    'zh-Hant': {
+      'nav.home': '首頁',
+      'nav.script': '劇本',
+      'nav.features': '功能',
+      'nav.contact': '聯絡',
+      'brand.tagline': '你的AI睡眠夥伴，以理解喚醒每一個清晨',
+      'hero.subtitle': '你的AI睡眠夥伴，以理解喚醒每一個清晨',
+      'hero.cta': '開始體驗',
+      'hero.listening': 'Raychel正在聆聽...',
+      'scene.header': '體驗Raychel的陪伴',
+      'scene.subheader': '選擇你想要體驗的場景，感受Raychel如何以理解與關懷',
+      'scene.subheader.tail': '改變你的睡眠體驗',
+      'scene.sleep.title': '入睡場景',
+      'scene.sleep.desc': '溫柔陪伴，舒緩森林光影',
+      'scene.sleep.point1': '2700K暖色光',
+      'scene.sleep.point2': '森林剪影＋螢火蟲投影',
+      'scene.sleep.point3': '睡眠節律監測',
+      'scene.sleep.cta': '體驗入睡場景',
+      'scene.wake.title': '喚醒場景',
+      'scene.wake.desc': '自然喚醒，流星般的美好開始',
+      'scene.wake.point1': '6500K晨光模擬',
+      'scene.wake.point2': '流星投影效果',
+      'scene.wake.point3': '智慧對話喚醒',
+      'scene.wake.cta': '體驗喚醒場景',
+      'scene.preview.title': '選擇一個場景開始體驗',
+      'scene.preview.desc': '點擊上方卡片，感受Raychel如何以光影與聲音打造完美睡眠環境',
+      'sleep.content.title': '夜晚的溫柔守護者',
+      'sleep.content.btn.voice': '播放語音樣本',
+      'sleep.content.btn.script': '查看完整劇本',
+      'wake.content.title': '智慧的晨間夥伴',
+      'product.header': '科技與溫暖的完美結合',
+      'product.subheader': 'Raychel不僅是智慧鬧鐘，更是你生活中不可或缺的AI夥伴',
+      'product.design.title': '設計之美，功能之智',
+      'product.feature.light.title': '智慧光環境',
+      'product.feature.light.desc': '2700K–6500K無段調光，模擬自然光線變化',
+      'product.feature.projection.title': '動態投影',
+      'product.feature.projection.desc': '森林剪影＋螢火蟲、慢速流星等多種場景',
+      'product.feature.ai.title': 'AI對話互動',
+      'product.feature.ai.desc': '感知情緒，個人化對話，真正的智慧陪伴',
+      'product.feature.sleep.title': '睡眠監測',
+      'product.feature.sleep.desc': '讀取睡眠節律，優化喚醒時機',
+      'cta.header': '準備好遇見你的AI夥伴了嗎？',
+      'cta.subheader': '讓Raychel成為你生活中溫暖而智慧的一部分',
+      'cta.primary': '立即預訂',
+      'cta.secondary': '了解更多',
+      'footer.rights': '© 2024 Raychel智能科技. 保留所有權利.',
+      'features.hero.title': '產品功能',
+      'features.hero.desc': '探索Raychel智慧鬧鐘的強大功能，體驗科技與溫暖的完美結合',
+      'features.sim.title': '互動式體驗模擬器',
+      'features.sim.desc': '親身體驗Raychel的核心功能，感受智慧科技的魅力',
+      'features.sim.light': '燈光控制',
+      'features.sim.color.label': '色溫調節 (2700K - 6500K)',
+      'features.sim.color.warm': '暖色',
+      'features.sim.color.cool': '冷色',
+      'features.sim.brightness': '亮度調節',
+      'features.sim.brightness.dark': '暗',
+      'features.sim.brightness.bright': '亮',
+      'features.sim.projection': '投影效果',
+      'features.sim.projection.forest': '森林螢火蟲',
+      'features.sim.projection.stars': '流星效果',
+      'features.sim.voice': '語音體驗',
+      'features.sim.voice.sleep': '溫柔陪伴',
+      'features.sim.voice.wake': '輕柔喚醒',
+      'features.preview.title': '預覽效果',
+      'features.preview.brand': '你的AI夥伴',
+      'features.grid.title': '核心功能特性',
+      'features.grid.desc': '整合最先進技術，提供全方位智慧睡眠體驗',
+      'features.spec.title': '技術規格',
+      'features.spec.desc': '了解Raychel的詳細技術參數，感受精工品質',
+      'features.cta.header': '準備好迎接更好的睡眠體驗了嗎？',
+      'features.cta.sub': '讓每一晚溫暖、每一個清晨充滿活力',
+      'features.cta.primary': '立即預訂 - ¥899',
+      'features.cta.secondary': '了解更多詳情',
+      'features.cta.note': '* 預計出貨時間：2024年12月 | 支援30天無理由退貨',
+      'script.hero.title': '完整劇本',
+      'script.hero.desc': '深入了解Raychel與Theodore的溫馨對話，感受AI與人性的融合'
+    },
+    ja: {
+      'nav.home': 'ホーム',
+      'nav.script': '脚本',
+      'nav.features': '機能',
+      'nav.contact': 'お問い合わせ',
+      'brand.tagline': '理解で毎朝を迎える、あなたのAI睡眠コンパニオン',
+      'hero.subtitle': '理解で毎朝を迎える、あなたのAI睡眠コンパニオン',
+      'hero.cta': '体験を始める',
+      'hero.listening': 'Raychel is listening...',
+      'scene.header': 'Raychelの寄り添いを体験',
+      'scene.subheader': '体験したいシーンを選び、Raychelが理解と気遣いで',
+      'scene.subheader.tail': '睡眠体験を変える様子を感じてください',
+      'scene.sleep.title': '入眠シーン',
+      'scene.sleep.desc': '優しい寄り添い、穏やかな森の光',
+      'scene.sleep.point1': '2700Kの暖色光',
+      'scene.sleep.point2': '森のシルエット＋ホタル投影',
+      'scene.sleep.point3': '睡眠リズムのモニタリング',
+      'scene.sleep.cta': '入眠シーンを体験',
+      'scene.wake.title': '目覚めシーン',
+      'scene.wake.desc': '自然な目覚め、流星のような始まり',
+      'scene.wake.point1': '6500Kの朝光シミュレーション',
+      'scene.wake.point2': '流星投影効果',
+      'scene.wake.point3': '会話でのスマートウェイク',
+      'scene.wake.cta': '目覚めシーンを体験',
+      'scene.preview.title': 'シーンを選んで体験を開始',
+      'scene.preview.desc': '上のカードをクリックして、光と音で完璧な睡眠環境を作るRaychelを体感',
+      'sleep.content.title': '夜の優しい守り手',
+      'sleep.content.btn.voice': '音声サンプルを再生',
+      'sleep.content.btn.script': '完全な脚本を見る',
+      'wake.content.title': 'スマートな朝の相棒',
+      'product.header': '技術と温もりの完璧な融合',
+      'product.subheader': 'Raychelは単なるスマートアラームではなく、あなたのAIコンパニオン',
+      'product.design.title': '美しいデザイン、賢い機能',
+      'product.feature.light.title': 'スマートライト環境',
+      'product.feature.light.desc': '2700K–6500K無段階調光、自然光の変化を再現',
+      'product.feature.projection.title': 'ダイナミック投影',
+      'product.feature.projection.desc': '森のシルエット＋ホタル、ゆっくり流れる流星など',
+      'product.feature.ai.title': 'AI会話インタラクション',
+      'product.feature.ai.desc': '感情認識、パーソナライズされた会話、真の知的な寄り添い',
+      'product.feature.sleep.title': '睡眠モニタリング',
+      'product.feature.sleep.desc': '睡眠リズムを読み取り、起床のタイミングを最適化',
+      'cta.header': 'AIコンパニオンに会う準備はできましたか？',
+      'cta.subheader': 'Raychelをあなたの暮らしの温かく賢い一部に',
+      'cta.primary': '今すぐ予約',
+      'cta.secondary': '詳細を見る',
+      'footer.rights': '© 2024 Raychel Intelligent Technology. All rights reserved.',
+      'features.hero.title': '製品機能',
+      'features.hero.desc': 'Raychelスマートアラームの強力な機能を探索し、技術と温もりの融合を体験',
+      'features.sim.title': 'インタラクティブ体験シミュレーター',
+      'features.sim.desc': 'Raychelのコア機能を自分で体験し、知能技術の魅力を感じる',
+      'features.sim.light': 'ライト制御',
+      'features.sim.color.label': '色温調整 (2700K - 6500K)',
+      'features.sim.color.warm': '暖色',
+      'features.sim.color.cool': '寒色',
+      'features.sim.brightness': '明るさ調整',
+      'features.sim.brightness.dark': '暗',
+      'features.sim.brightness.bright': '明',
+      'features.sim.projection': '投影効果',
+      'features.sim.projection.forest': '森のホタル',
+      'features.sim.projection.stars': '流星',
+      'features.sim.voice': '音声体験',
+      'features.sim.voice.sleep': '優しい寄り添い',
+      'features.sim.voice.wake': '柔らかな目覚め',
+      'features.preview.title': 'プレビュー',
+      'features.preview.brand': 'あなたのAIコンパニオン',
+      'features.grid.title': 'コア機能のハイライト',
+      'features.grid.desc': '最先端技術を統合し、包括的な睡眠体験を提供',
+      'features.spec.title': '技術仕様',
+      'features.spec.desc': '詳細な技術パラメータを知り、クラフトマンシップを感じる',
+      'features.cta.header': 'より良い睡眠体験の準備はできましたか？',
+      'features.cta.sub': '毎晩を温かく、毎朝を活力に',
+      'features.cta.primary': '今すぐ予約 - ¥899',
+      'features.cta.secondary': '詳しく見る',
+      'features.cta.note': '* 出荷予定：2024年12月 | 30日間返品可',
+      'script.hero.title': '完全な脚本',
+      'script.hero.desc': 'RaychelとTheodoreの温かな対話に触れ、AIと人間性の融合を感じる'
+    },
+    de: {
+      'nav.home': 'Startseite',
+      'nav.script': 'Skript',
+      'nav.features': 'Funktionen',
+      'nav.contact': 'Kontakt',
+      'brand.tagline': 'Dein KI-Schlafbegleiter, der jeden Morgen mit Verständnis weckt',
+      'hero.subtitle': 'Dein KI-Schlafbegleiter, der jeden Morgen mit Verständnis weckt',
+      'hero.cta': 'Erlebnis starten',
+      'hero.listening': 'Raychel is listening...',
+      'scene.header': 'Erlebe Raychels Begleitung',
+      'scene.subheader': 'Wähle eine Szene und spüre, wie Verständnis und Fürsorge',
+      'scene.subheader.tail': 'dein Schlaferlebnis verwandeln',
+      'scene.sleep.title': 'Einschlaf-Szene',
+      'scene.sleep.desc': 'Sanfte Begleitung, beruhigendes Waldlicht',
+      'scene.sleep.point1': '2700K warmes Licht',
+      'scene.sleep.point2': 'Waldsilhouetten + Glühwürmchenprojektion',
+      'scene.sleep.point3': 'Schlafrhythmus-Überwachung',
+      'scene.sleep.cta': 'Einschlaf-Szene erleben',
+      'scene.wake.title': 'Aufwach-Szene',
+      'scene.wake.desc': 'Natürliches Erwachen, ein Start wie Sternschnuppen',
+      'scene.wake.point1': '6500K Morgenlichtsimulation',
+      'scene.wake.point2': 'Sternschnuppenprojektion',
+      'scene.wake.point3': 'Intelligentes Gesprächs-Wecken',
+      'scene.wake.cta': 'Aufwach-Szene erleben',
+      'scene.preview.title': 'Wähle eine Szene zum Start',
+      'scene.preview.desc': 'Klicke die Karten und erlebe, wie Licht und Klang die perfekte Schlafumgebung schaffen',
+      'sleep.content.title': 'Sanfter Wächter der Nacht',
+      'sleep.content.btn.voice': 'Sprachprobe abspielen',
+      'sleep.content.btn.script': 'Komplettes Skript ansehen',
+      'wake.content.title': 'Intelligenter Morgenbegleiter',
+      'product.header': 'Perfekte Verbindung von Technik und Wärme',
+      'product.subheader': 'Raychel ist mehr als ein smarter Wecker – dein AI-Begleiter',
+      'product.design.title': 'Schönes Design, kluge Funktionen',
+      'product.feature.light.title': 'Smartes Lichtumfeld',
+      'product.feature.light.desc': '2700K–6500K stufenloses Dimmen, natürliche Lichtverläufe',
+      'product.feature.projection.title': 'Dynamische Projektion',
+      'product.feature.projection.desc': 'Waldsilhouetten, Glühwürmchen, langsame Sternschnuppen',
+      'product.feature.ai.title': 'KI-Dialoginteraktion',
+      'product.feature.ai.desc': 'Emotionserkennung, personalisierte Gespräche, echte Begleitung',
+      'product.feature.sleep.title': 'Schlafüberwachung',
+      'product.feature.sleep.desc': 'Schlafrhythmen lesen, Aufwachzeit optimieren',
+      'cta.header': 'Bereit, deinen KI-Begleiter zu treffen?',
+      'cta.subheader': 'Lass Raychel ein warmer, intelligenter Teil deines Lebens sein',
+      'cta.primary': 'Jetzt vorbestellen',
+      'cta.secondary': 'Mehr erfahren',
+      'footer.rights': '© 2024 Raychel Intelligent Technology. Alle Rechte vorbehalten.',
+      'features.hero.title': 'Produktfunktionen',
+      'features.hero.desc': 'Erkunde die starken Funktionen des Raychel-Weckers – Technik trifft Wärme',
+      'features.sim.title': 'Interaktiver Erlebnis-Simulator',
+      'features.sim.desc': 'Erlebe die Kernfunktionen selbst und spüre die Faszination',
+      'features.sim.light': 'Lichtsteuerung',
+      'features.sim.color.label': 'Farbtemperatur (2700K - 6500K)',
+      'features.sim.color.warm': 'Warm',
+      'features.sim.color.cool': 'Kalt',
+      'features.sim.brightness': 'Helligkeit',
+      'features.sim.brightness.dark': 'Dunkel',
+      'features.sim.brightness.bright': 'Hell',
+      'features.sim.projection': 'Projektionseffekte',
+      'features.sim.projection.forest': 'Wald & Glühwürmchen',
+      'features.sim.projection.stars': 'Sternschnuppen',
+      'features.sim.voice': 'Spracherlebnis',
+      'features.sim.voice.sleep': 'Sanfte Begleitung',
+      'features.sim.voice.wake': 'Sanftes Wecken',
+      'features.preview.title': 'Vorschau',
+      'features.preview.brand': 'Dein AI-Begleiter',
+      'features.grid.title': 'Kernfunktionen',
+      'features.grid.desc': 'Vorreitertechnologien für ein ganzheitliches Schlaferlebnis',
+      'features.spec.title': 'Technische Daten',
+      'features.spec.desc': 'Technische Parameter und Handwerkskunst im Überblick',
+      'features.cta.header': 'Bereit für besseren Schlaf?',
+      'features.cta.sub': 'Jede Nacht warm, jeder Morgen voller Energie',
+      'features.cta.primary': 'Jetzt vorbestellen - ¥899',
+      'features.cta.secondary': 'Mehr Details',
+      'features.cta.note': '* Voraussichtlicher Versand: Dez 2024 | 30 Tage Rückgaberecht',
+      'script.hero.title': 'Komplettes Skript',
+      'script.hero.desc': 'Erlebe die warme Unterhaltung zwischen Raychel und Theodore'
+    },
+    fr: {
+      'nav.home': 'Accueil',
+      'nav.script': 'Scénario',
+      'nav.features': 'Fonctionnalités',
+      'nav.contact': 'Contact',
+      'brand.tagline': 'Votre compagnon de sommeil IA, vous réveillant chaque matin avec compréhension',
+      'hero.subtitle': 'Votre compagnon de sommeil IA, vous réveillant chaque matin avec compréhension',
+      'hero.cta': 'Commencer l’expérience',
+      'hero.listening': 'Raychel is listening...',
+      'scene.header': 'Découvrez la compagnie de Raychel',
+      'scene.subheader': 'Choisissez une scène et sentez comment la compréhension et l’attention',
+      'scene.subheader.tail': 'transforment votre expérience du sommeil',
+      'scene.sleep.title': 'Scène d’endormissement',
+      'scene.sleep.desc': 'Compagnie douce, lumière de forêt apaisante',
+      'scene.sleep.point1': '2700K lumière chaude',
+      'scene.sleep.point2': 'Silhouettes de forêt + projection lucioles',
+      'scene.sleep.point3': 'Suivi du rythme de sommeil',
+      'scene.sleep.cta': 'Essayer la scène d’endormissement',
+      'scene.wake.title': 'Scène de réveil',
+      'scene.wake.desc': 'Réveil naturel, début comme une étoile filante',
+      'scene.wake.point1': 'Simulation de lumière du matin 6500K',
+      'scene.wake.point2': 'Projection d’étoiles filantes',
+      'scene.wake.point3': 'Réveil conversationnel intelligent',
+      'scene.wake.cta': 'Essayer la scène de réveil',
+      'scene.preview.title': 'Choisissez une scène pour commencer',
+      'scene.preview.desc': 'Cliquez sur les cartes pour sentir comment la lumière et le son créent un environnement de sommeil parfait',
+      'sleep.content.title': 'Gardien doux de la nuit',
+      'sleep.content.btn.voice': 'Lire l’extrait vocal',
+      'sleep.content.btn.script': 'Voir le scénario complet',
+      'wake.content.title': 'Compagnon matinal intelligent',
+      'product.header': 'Alliance parfaite de technologie et de chaleur',
+      'product.subheader': 'Plus qu’un réveil intelligent — votre compagnon IA indispensable',
+      'product.design.title': 'Beauté du design, intelligence des fonctions',
+      'product.feature.light.title': 'Environnement lumineux intelligent',
+      'product.feature.light.desc': '2700K–6500K, gradation continue, simulation de la lumière naturelle',
+      'product.feature.projection.title': 'Projection dynamique',
+      'product.feature.projection.desc': 'Silhouettes forestières, lucioles, étoiles filantes lentes',
+      'product.feature.ai.title': 'Interaction conversationnelle IA',
+      'product.feature.ai.desc': 'Perception des émotions, dialogues personnalisés, vraie compagnie',
+      'product.feature.sleep.title': 'Suivi du sommeil',
+      'product.feature.sleep.desc': 'Lecture du rythme du sommeil, optimisation du réveil',
+      'cta.header': 'Prêt à rencontrer votre compagnon IA ?',
+      'cta.subheader': 'Faites de Raychel une part chaleureuse et intelligente de votre vie',
+      'cta.primary': 'Précommander',
+      'cta.secondary': 'En savoir plus',
+      'footer.rights': '© 2024 Raychel Intelligent Technology. Tous droits réservés.',
+      'features.hero.title': 'Fonctionnalités du produit',
+      'features.hero.desc': 'Explorez les puissantes fonctions du réveil intelligent Raychel et l’alliance de la technologie et de la chaleur',
+      'features.sim.title': 'Simulateur d’expérience interactif',
+      'features.sim.desc': 'Vivez par vous-même les fonctions clés de Raychel et sentez le charme de la technologie',
+      'features.sim.light': 'Contrôle de la lumière',
+      'features.sim.color.label': 'Température de couleur (2700K - 6500K)',
+      'features.sim.color.warm': 'Chaud',
+      'features.sim.color.cool': 'Froid',
+      'features.sim.brightness': 'Luminosité',
+      'features.sim.brightness.dark': 'Sombre',
+      'features.sim.brightness.bright': 'Clair',
+      'features.sim.projection': 'Effets de projection',
+      'features.sim.projection.forest': 'Forêt & lucioles',
+      'features.sim.projection.stars': 'Étoiles filantes',
+      'features.sim.voice': 'Expérience vocale',
+      'features.sim.voice.sleep': 'Compagnie douce',
+      'features.sim.voice.wake': 'Réveil doux',
+      'features.preview.title': 'Aperçu',
+      'features.preview.brand': 'Votre compagnon IA',
+      'features.grid.title': 'Points forts des fonctionnalités',
+      'features.grid.desc': 'Technologies de pointe pour une expérience de sommeil complète',
+      'features.spec.title': 'Spécifications techniques',
+      'features.spec.desc': 'Découvrez les paramètres techniques détaillés et l’artisanat',
+      'features.cta.header': 'Prêt pour une meilleure expérience de sommeil ?',
+      'features.cta.sub': 'Chaque nuit chaleureuse, chaque matin plein d’énergie',
+      'features.cta.primary': 'Précommander - ¥899',
+      'features.cta.secondary': 'En savoir plus',
+      'features.cta.note': '* Expédition estimée : Déc 2024 | Retour sous 30 jours',
+      'script.hero.title': 'Scénario complet',
+      'script.hero.desc': 'Découvrez le dialogue chaleureux entre Raychel et Theodore'
+    }
   };
 
+  const langOrder = ['en', 'zh', 'zh-Hant', 'ja', 'de', 'fr'];
+  const langLabels = { en: 'EN', zh: '中文', 'zh-Hant': '繁體', ja: '日本語', de: 'Deutsch', fr: 'Français' };
+
+  function mapHtmlLang(lang) {
+    if (lang === 'zh') return 'zh-CN';
+    if (lang === 'zh-Hant') return 'zh-TW';
+    return lang;
+  }
+
   function applyTranslations(lang) {
-    document.documentElement.setAttribute('lang', lang === 'zh' ? 'zh-CN' : 'en');
+    document.documentElement.setAttribute('lang', mapHtmlLang(lang));
     document.querySelectorAll('[data-i18n]').forEach(el => {
       const key = el.getAttribute('data-i18n');
-      const txt = translations[lang] && translations[lang][key];
+      let txt = translations[lang] && translations[lang][key];
+      if (typeof txt !== 'string') {
+        if (lang === 'zh-Hant') txt = (translations.zh && translations.zh[key]) || (translations.en && translations.en[key]);
+        else txt = translations.en && translations.en[key];
+      }
       if (typeof txt === 'string') el.textContent = txt;
     });
     const toggle = document.getElementById('langToggle');
-    if (toggle) toggle.textContent = lang === 'zh' ? translations.zh['nav.lang.zh'] : translations.en['nav.lang.en'];
+    if (toggle) toggle.textContent = langLabels[lang] || 'EN';
   }
 
   function setLanguage(lang) {
@@ -379,9 +701,92 @@
     applyTranslations(lang);
     const toggle = document.getElementById('langToggle');
     if (toggle) {
-      toggle.addEventListener('click', () => {
-        lang = lang === 'en' ? 'zh' : 'en';
-        setLanguage(lang);
+      const menu = document.createElement('div');
+      menu.id = 'langMenu';
+      menu.className = 'absolute right-0 w-36 bg-black bg-opacity-80 backdrop-blur-md border border-gray-800 rounded-md shadow-xl hidden z-50 overflow-hidden';
+      langOrder.forEach(code => {
+        const item = document.createElement('button');
+        item.type = 'button';
+        item.className = 'nav-link block w-full text-left px-3 py-2 text-gray-300 hover:text-white';
+        item.setAttribute('data-lang', code);
+        item.textContent = langLabels[code];
+        menu.appendChild(item);
+      });
+      if (toggle.parentElement) toggle.parentElement.style.position = 'relative';
+      if (toggle.parentElement) toggle.parentElement.appendChild(menu);
+      menu.style.top = 'calc(100% + 8px)';
+      menu.style.right = '0px';
+      menu.style.maxHeight = '260px';
+      menu.style.overflowY = 'auto';
+      let menuOpen = false;
+      const openMenu = () => {
+        if (menuOpen) return;
+        menuOpen = true;
+        Array.from(menu.querySelectorAll('button')).forEach(b => {
+          const code = b.getAttribute('data-lang');
+          b.classList.toggle('bg-gray-900', code === lang);
+          b.classList.toggle('text-white', code === lang);
+        });
+        const a = window.anime;
+        menu.style.display = 'block';
+        menu.classList.remove('hidden');
+        menu.style.opacity = '0';
+        menu.style.borderWidth = '0px';
+        menu.style.height = '0px';
+        menu.style.transformOrigin = 'top right';
+        menu.style.transform = 'scaleY(0.95)';
+        const targetH = Math.min(menu.scrollHeight, 260);
+        if (a) {
+          a({
+            targets: menu,
+            height: [0, targetH],
+            opacity: [0, 1],
+            borderWidth: [0, 1],
+            scaleY: [0.95, 1],
+            duration: 250,
+            easing: 'easeOutExpo'
+          });
+        } else {
+          menu.style.opacity = '1';
+          menu.style.borderWidth = '1px';
+          menu.style.height = targetH + 'px';
+          menu.style.transform = 'scaleY(1)';
+        }
+      };
+      const closeMenu = () => {
+        if (!menuOpen) return;
+        const a = window.anime;
+        const finish = () => {
+          menu.classList.add('hidden');
+          menu.style.display = 'none';
+          menuOpen = false;
+        };
+        if (a) {
+          a({
+            targets: menu,
+            height: [menu.offsetHeight, 0],
+            opacity: [1, 0],
+            borderWidth: [1, 0],
+            scaleY: [1, 0.95],
+            duration: 200,
+            easing: 'easeInExpo',
+            complete: finish
+          });
+        } else {
+          finish();
+        }
+      };
+      toggle.addEventListener('click', e => { e.stopPropagation(); openMenu(); });
+      document.addEventListener('click', () => closeMenu());
+      menu.addEventListener('click', e => {
+        const t = e.target.closest('[data-lang]');
+        if (!t) return;
+        const code = t.getAttribute('data-lang');
+        if (code) {
+          lang = code;
+          setLanguage(lang);
+          closeMenu();
+        }
       });
     }
   }
