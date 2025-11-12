@@ -292,12 +292,17 @@ function initializeAudio() {
         console.log('Web Audio API not supported');
     }
     
-    // 为语音样本按钮添加事件监听
-    document.addEventListener('click', function(e) {
-        if (e.target.textContent === '播放语音样本') {
+    const voiceButtons = document.querySelectorAll('[data-action="voice-sample"]');
+    voiceButtons.forEach(btn => {
+        btn.addEventListener('click', function(e) {
             e.preventDefault();
-            playVoiceSample();
-        }
+            const type = this.getAttribute('data-voice');
+            if (type === 'sleep' || type === 'wake') {
+                playVoiceSample();
+            } else {
+                playVoiceSample();
+            }
+        });
     });
 }
 

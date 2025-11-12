@@ -1,9 +1,9 @@
 <!DOCTYPE html>
-<html lang="zh-CN">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>产品功能 - Raychel智能闹钟</title>
+    <title>Product Features - Raychel Smart Alarm</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.1/anime.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/pixi.js/7.2.4/pixi.min.js"></script>
@@ -260,11 +260,12 @@
                     <span class="text-xl font-semibold text-white">Raychel</span>
                 </div>
                 <div class="hidden md:flex space-x-8">
-                    <a href="index.html" class="nav-link text-gray-300 hover:text-white px-3 py-2">首页</a>
-                    <a href="script.html" class="nav-link text-gray-300 hover:text-white px-3 py-2">剧本</a>
-                    <a href="#features" class="nav-link text-white px-3 py-2">功能</a>
-                    <a href="#contact" class="nav-link text-gray-300 hover:text-white px-3 py-2">联系</a>
+                    <a href="index.html" class="nav-link text-gray-300 hover:text-white px-3 py-2" data-i18n="nav.home">首页</a>
+                    <a href="script.html" class="nav-link text-gray-300 hover:text-white px-3 py-2" data-i18n="nav.script">剧本</a>
+                    <a href="#features" class="nav-link text-white px-3 py-2" data-i18n="nav.features">功能</a>
+                    <a href="#contact" class="nav-link text-gray-300 hover:text-white px-3 py-2" data-i18n="nav.contact">联系</a>
                 </div>
+                <button id="langToggle" class="text-gray-300 border border-gray-600 px-3 py-1 rounded-md hover:text-white hover:border-gray-400" data-i18n="nav.lang.en">EN</button>
                 <button class="md:hidden text-gray-300">
                     <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path>
@@ -277,12 +278,8 @@
     <!-- Hero Section -->
     <section class="pt-24 pb-12 bg-gradient-to-b from-gray-900 to-black">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-            <h1 class="hero-title text-5xl md:text-7xl mb-6 scroll-reveal">
-                产品功能
-            </h1>
-            <p class="text-xl text-gray-300 max-w-3xl mx-auto scroll-reveal">
-                探索Raychel智能闹钟的强大功能，体验科技与温暖的完美结合
-            </p>
+            <h1 class="hero-title text-5xl md:text-7xl mb-6 scroll-reveal" data-i18n="features.hero.title">产品功能</h1>
+            <p class="text-xl text-gray-300 max-w-3xl mx-auto scroll-reveal" data-i18n="features.hero.desc">探索Raychel智能闹钟的强大功能，体验科技与温暖的完美结合</p>
         </div>
     </section>
 
@@ -290,63 +287,53 @@
     <section id="features" class="py-16 bg-black">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="text-center mb-16 scroll-reveal">
-                <h2 class="text-4xl font-bold text-white mb-6">交互式体验模拟器</h2>
-                <p class="text-xl text-gray-300 max-w-3xl mx-auto">
-                    亲身体验Raychel的核心功能，感受智能科技的魅力
-                </p>
+                <h2 class="text-4xl font-bold text-white mb-6" data-i18n="features.sim.title">交互式体验模拟器</h2>
+                <p class="text-xl text-gray-300 max-w-3xl mx-auto" data-i18n="features.sim.desc">亲身体验Raychel的核心功能，感受智能科技的魅力</p>
             </div>
             
             <div class="grid lg:grid-cols-2 gap-12 items-center mb-20">
                 <!-- Simulator Controls -->
                 <div class="scroll-reveal">
                     <div class="simulator-container">
-                        <h3 class="text-2xl font-bold text-white mb-6">灯光控制</h3>
+                        <h3 class="text-2xl font-bold text-white mb-6" data-i18n="features.sim.light">灯光控制</h3>
                         
                         <!-- Color Temperature Control -->
                         <div class="light-control mb-6">
-                            <label class="block text-gray-300 mb-3">色温调节 (2700K - 6500K)</label>
+                            <label class="block text-gray-300 mb-3" data-i18n="features.sim.color.label">色温调节 (2700K - 6500K)</label>
                             <input type="range" min="2700" max="6500" value="2700" class="slider" id="colorTempSlider">
                             <div class="flex justify-between text-sm text-gray-400 mt-2">
-                                <span>温暖</span>
+                                <span data-i18n="features.sim.color.warm">温暖</span>
                                 <span id="colorTempValue">2700K</span>
-                                <span>冷光</span>
+                                <span data-i18n="features.sim.color.cool">冷光</span>
                             </div>
                         </div>
                         
                         <!-- Brightness Control -->
                         <div class="light-control mb-6">
-                            <label class="block text-gray-300 mb-3">亮度调节</label>
+                            <label class="block text-gray-300 mb-3" data-i18n="features.sim.brightness">亮度调节</label>
                             <input type="range" min="0" max="100" value="50" class="slider" id="brightnessSlider">
                             <div class="flex justify-between text-sm text-gray-400 mt-2">
-                                <span>暗</span>
+                                <span data-i18n="features.sim.brightness.dark">暗</span>
                                 <span id="brightnessValue">50%</span>
-                                <span>亮</span>
+                                <span data-i18n="features.sim.brightness.bright">亮</span>
                             </div>
                         </div>
                         
                         <!-- Projection Selection -->
                         <div class="light-control mb-6">
-                            <label class="block text-gray-300 mb-3">投影效果</label>
+                            <label class="block text-gray-300 mb-3" data-i18n="features.sim.projection">投影效果</label>
                             <div class="grid grid-cols-2 gap-4">
-                                <button class="btn-secondary projection-btn active" data-projection="forest">
-                                    森林萤火虫
-                                </button>
-                                <button class="btn-secondary projection-btn" data-projection="stars">
-                                    流星效果
-                                </button>
+                                <button class="btn-secondary projection-btn active" data-projection="forest" data-i18n="features.sim.projection.forest">森林萤火虫</button>
+                                <button class="btn-secondary projection-btn" data-projection="stars" data-i18n="features.sim.projection.stars">流星效果</button>
                             </div>
                         </div>
                         
                         <!-- Voice Sample -->
                         <div class="light-control">
-                            <label class="block text-gray-300 mb-3">语音体验</label>
+                            <label class="block text-gray-300 mb-3" data-i18n="features.sim.voice">语音体验</label>
                             <div class="grid grid-cols-2 gap-4">
-                                <button class="btn-primary" onclick="playVoiceSample('sleep')">
-                                    温柔陪伴
-                                </button>
-                                <button class="btn-primary" onclick="playVoiceSample('wake')">
-                                    轻柔唤醒
-                                </button>
+                                <button class="btn-primary" onclick="playVoiceSample('sleep')" data-voice="sleep" data-i18n="features.sim.voice.sleep">温柔陪伴</button>
+                                <button class="btn-primary" onclick="playVoiceSample('wake')" data-voice="wake" data-i18n="features.sim.voice.wake">轻柔唤醒</button>
                             </div>
                         </div>
                     </div>
@@ -355,7 +342,7 @@
                 <!-- Preview Display -->
                 <div class="scroll-reveal">
                     <div class="simulator-container">
-                        <h3 class="text-2xl font-bold text-white mb-6">预览效果</h3>
+                        <h3 class="text-2xl font-bold text-white mb-6" data-i18n="features.preview.title">预览效果</h3>
                         
                         <!-- Clock Display -->
                         <div class="clock-display mb-6" id="clockDisplay">
@@ -375,7 +362,7 @@
                                         </svg>
                                     </div>
                                     <p class="text-lg font-semibold">Raychel</p>
-                                    <p class="text-sm opacity-75">你的AI伴侣</p>
+                                    <p class="text-sm opacity-75" data-i18n="features.preview.brand">你的AI伴侣</p>
                                 </div>
                             </div>
                         </div>
@@ -401,7 +388,7 @@
                     <div class="feature-icon">
                         <span>🧠</span>
                     </div>
-                    <h3 class="text-2xl font-bold text-white mb-4">AI对话交互</h3>
+                    <h3 class="text-2xl font-bold text-white mb-4" data-i18n="features.grid.ai.title">AI对话交互</h3>
                     <p class="text-gray-300 mb-6">
                         基于情感识别的智能对话系统，能够理解你的情绪状态，
                         提供个性化的陪伴和关怀。
@@ -419,7 +406,7 @@
                     <div class="feature-icon">
                         <span>💡</span>
                     </div>
-                    <h3 class="text-2xl font-bold text-white mb-4">智能光环境</h3>
+                    <h3 class="text-2xl font-bold text-white mb-4" data-i18n="features.grid.light.title">智能光环境</h3>
                     <p class="text-gray-300 mb-6">
                         2700K-6500K无级调光技术，模拟自然光线的变化，
                         帮助你调节生物钟，改善睡眠质量。
@@ -437,7 +424,7 @@
                     <div class="feature-icon">
                         <span>🎭</span>
                     </div>
-                    <h3 class="text-2xl font-bold text-white mb-4">动态投影</h3>
+                    <h3 class="text-2xl font-bold text-white mb-4" data-i18n="features.grid.projection.title">动态投影</h3>
                     <p class="text-gray-300 mb-6">
                         高清投影系统，支持多种场景模式，
                         为你的房间营造梦幻般的氛围。
@@ -455,7 +442,7 @@
                     <div class="feature-icon">
                         <span>📊</span>
                     </div>
-                    <h3 class="text-2xl font-bold text-white mb-4">睡眠监测</h3>
+                    <h3 class="text-2xl font-bold text-white mb-4" data-i18n="features.grid.sleep.title">睡眠监测</h3>
                     <p class="text-gray-300 mb-6">
                         先进的传感器技术，实时监测你的睡眠状态，
                         为智能唤醒提供科学依据。
@@ -473,7 +460,7 @@
                     <div class="feature-icon">
                         <span>⏰</span>
                     </div>
-                    <h3 class="text-2xl font-bold text-white mb-4">智能唤醒</h3>
+                    <h3 class="text-2xl font-bold text-white mb-4" data-i18n="features.grid.wake.title">智能唤醒</h3>
                     <p class="text-gray-300 mb-6">
                         基于睡眠周期的智能唤醒算法，在最合适的时机
                         用温柔的方式唤醒你，让每个清晨都充满活力。
@@ -491,7 +478,7 @@
                     <div class="feature-icon">
                         <span>⚙️</span>
                     </div>
-                    <h3 class="text-2xl font-bold text-white mb-4">个性化设置</h3>
+                    <h3 class="text-2xl font-bold text-white mb-4" data-i18n="features.grid.settings.title">个性化设置</h3>
                     <p class="text-gray-300 mb-6">
                         丰富的个性化选项，让Raychel真正成为
                         你的专属AI伴侣。
@@ -511,55 +498,53 @@
     <section class="py-20 bg-black">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="text-center mb-16 scroll-reveal">
-                <h2 class="text-4xl font-bold text-white mb-6">技术规格</h2>
-                <p class="text-xl text-gray-300 max-w-3xl mx-auto">
-                    了解Raychel的详细技术参数，感受精工制造的品质
-                </p>
+                <h2 class="text-4xl font-bold text-white mb-6" data-i18n="features.spec.title">技术规格</h2>
+                <p class="text-xl text-gray-300 max-w-3xl mx-auto" data-i18n="features.spec.desc">了解Raychel的详细技术参数，感受精工制造的品质</p>
             </div>
             
             <div class="grid lg:grid-cols-2 gap-12">
                 <!-- Hardware Specs -->
                 <div class="scroll-reveal">
-                    <h3 class="text-2xl font-bold text-white mb-6">硬件规格</h3>
+                    <h3 class="text-2xl font-bold text-white mb-6" data-i18n="features.spec.hw">硬件规格</h3>
                     <div class="spec-table">
                         <div class="spec-row p-4 flex justify-between items-center">
-                            <span class="text-gray-300">尺寸</span>
+                            <span class="text-gray-300" data-i18n="features.spec.size">尺寸</span>
                             <span class="text-white font-semibold">12cm × 12cm × 8cm</span>
                         </div>
                         <div class="spec-row p-4 flex justify-between items-center">
-                            <span class="text-gray-300">重量</span>
+                            <span class="text-gray-300" data-i18n="features.spec.weight">重量</span>
                             <span class="text-white font-semibold">450g</span>
                         </div>
                         <div class="spec-row p-4 flex justify-between items-center">
-                            <span class="text-gray-300">材质</span>
+                            <span class="text-gray-300" data-i18n="features.spec.material">材质</span>
                             <span class="text-white font-semibold">铝合金 + 磨砂玻璃</span>
                         </div>
                         <div class="spec-row p-4 flex justify-between items-center">
-                            <span class="text-gray-300">显示屏</span>
+                            <span class="text-gray-300" data-i18n="features.spec.display">显示屏</span>
                             <span class="text-white font-semibold">LED点阵屏</span>
                         </div>
                         <div class="spec-row p-4 flex justify-between items-center">
-                            <span class="text-gray-300">光源</span>
+                            <span class="text-gray-300" data-i18n="features.spec.light">光源</span>
                             <span class="text-white font-semibold">RGB LED环形灯</span>
                         </div>
                         <div class="spec-row p-4 flex justify-between items-center">
-                            <span class="text-gray-300">投影系统</span>
+                            <span class="text-gray-300" data-i18n="features.spec.projector">投影系统</span>
                             <span class="text-white font-semibold">高清微投影</span>
                         </div>
                         <div class="spec-row p-4 flex justify-between items-center">
-                            <span class="text-gray-300">传感器</span>
+                            <span class="text-gray-300" data-i18n="features.spec.sensors">传感器</span>
                             <span class="text-white font-semibold">心率、体动、环境光</span>
                         </div>
                         <div class="spec-row p-4 flex justify-between items-center">
-                            <span class="text-gray-300">音频</span>
+                            <span class="text-gray-300" data-i18n="features.spec.audio">音频</span>
                             <span class="text-white font-semibold">立体声扬声器</span>
                         </div>
                         <div class="spec-row p-4 flex justify-between items-center">
-                            <span class="text-gray-300">连接</span>
+                            <span class="text-gray-300" data-i18n="features.spec.connectivity">连接</span>
                             <span class="text-white font-semibold">Wi-Fi 6, Bluetooth 5.2</span>
                         </div>
                         <div class="spec-row p-4 flex justify-between items-center">
-                            <span class="text-gray-300">电源</span>
+                            <span class="text-gray-300" data-i18n="features.spec.power">电源</span>
                             <span class="text-white font-semibold">USB-C, 15W</span>
                         </div>
                     </div>
@@ -567,46 +552,46 @@
                 
                 <!-- Software Features -->
                 <div class="scroll-reveal">
-                    <h3 class="text-2xl font-bold text-white mb-6">软件功能</h3>
+                    <h3 class="text-2xl font-bold text-white mb-6" data-i18n="features.spec.sw">软件功能</h3>
                     <div class="spec-table">
                         <div class="spec-row p-4 flex justify-between items-center">
-                            <span class="text-gray-300">操作系统</span>
+                            <span class="text-gray-300" data-i18n="features.spec.os">操作系统</span>
                             <span class="text-white font-semibold">Raychel OS</span>
                         </div>
                         <div class="spec-row p-4 flex justify-between items-center">
-                            <span class="text-gray-300">AI引擎</span>
+                            <span class="text-gray-300" data-i18n="features.spec.ai">AI引擎</span>
                             <span class="text-white font-semibold">深度学习NLP</span>
                         </div>
                         <div class="spec-row p-4 flex justify-between items-center">
-                            <span class="text-gray-300">语音识别</span>
+                            <span class="text-gray-300" data-i18n="features.spec.asr">语音识别</span>
                             <span class="text-white font-semibold">远场识别, 97%准确率</span>
                         </div>
                         <div class="spec-row p-4 flex justify-between items-center">
-                            <span class="text-gray-300">语音合成</span>
+                            <span class="text-gray-300" data-i18n="features.spec.tts">语音合成</span>
                             <span class="text-white font-semibold">自然音色, 多语言</span>
                         </div>
                         <div class="spec-row p-4 flex justify-between items-center">
-                            <span class="text-gray-300">睡眠算法</span>
+                            <span class="text-gray-300" data-i18n="features.spec.alg">睡眠算法</span>
                             <span class="text-white font-semibold">多维度分析</span>
                         </div>
                         <div class="spec-row p-4 flex justify-between items-center">
-                            <span class="text-gray-300">投影效果</span>
+                            <span class="text-gray-300" data-i18n="features.spec.proj">投影效果</span>
                             <span class="text-white font-semibold">10+场景模式</span>
                         </div>
                         <div class="spec-row p-4 flex justify-between items-center">
-                            <span class="text-gray-300">数据同步</span>
+                            <span class="text-gray-300" data-i18n="features.spec.sync">数据同步</span>
                             <span class="text-white font-semibold">云端同步</span>
                         </div>
                         <div class="spec-row p-4 flex justify-between items-center">
-                            <span class="text-gray-300">隐私保护</span>
+                            <span class="text-gray-300" data-i18n="features.spec.privacy">隐私保护</span>
                             <span class="text-white font-semibold">本地处理优先</span>
                         </div>
                         <div class="spec-row p-4 flex justify-between items-center">
-                            <span class="text-gray-300">更新支持</span>
+                            <span class="text-gray-300" data-i18n="features.spec.update">更新支持</span>
                             <span class="text-white font-semibold">OTA在线升级</span>
                         </div>
                         <div class="spec-row p-4 flex justify-between items-center">
-                            <span class="text-gray-300">App支持</span>
+                            <span class="text-gray-300" data-i18n="features.spec.app">App支持</span>
                             <span class="text-white font-semibold">iOS, Android</span>
                         </div>
                     </div>
@@ -625,16 +610,10 @@
                 Raychel智能闹钟，让你的每个夜晚都充满温暖，每个清晨都充满活力
             </p>
             <div class="flex flex-col sm:flex-row gap-4 justify-center">
-                <button class="bg-white text-amber-600 px-8 py-4 rounded-full text-lg font-semibold hover:bg-gray-100 transition-all duration-300">
-                    立即预订 - ¥899
-                </button>
-                <button class="border-2 border-white text-white px-8 py-4 rounded-full text-lg font-semibold hover:bg-white hover:text-amber-600 transition-all duration-300">
-                    了解更多详情
-                </button>
+                <button class="bg-white text-amber-600 px-8 py-4 rounded-full text-lg font-semibold hover:bg-gray-100 transition-all duration-300" data-i18n="features.cta.primary">立即预订 - ¥899</button>
+                <button class="border-2 border-white text-white px-8 py-4 rounded-full text-lg font-semibold hover:bg-white hover:text-amber-600 transition-all duration-300" data-i18n="features.cta.secondary">了解更多详情</button>
             </div>
-            <p class="text-sm text-amber-200 mt-4">
-                * 预计发货时间：2024年12月 | 支持30天无理由退货
-            </p>
+            <p class="text-sm text-amber-200 mt-4" data-i18n="features.cta.note">* 预计发货时间：2024年12月 | 支持30天无理由退货</p>
         </div>
     </section>
 
@@ -646,8 +625,8 @@
                     <div class="w-8 h-8 bg-gradient-to-r from-amber-400 to-orange-500 rounded-full"></div>
                     <span class="text-2xl font-bold text-white">Raychel</span>
                 </div>
-                <p class="text-gray-400 mb-4">你的AI睡眠伴侣，用理解唤醒每一个清晨</p>
-                <p class="text-gray-500 text-sm">© 2024 Raychel智能科技. 保留所有权利.</p>
+                <p class="text-gray-400 mb-4" data-i18n="brand.tagline">你的AI睡眠伴侣，用理解唤醒每一个清晨</p>
+                <p class="text-gray-500 text-sm" data-i18n="footer.rights">© 2024 Raychel智能科技. 保留所有权利.</p>
             </div>
         </div>
     </footer>
@@ -884,16 +863,13 @@
         function showAudioFeedback(type) {
             const buttons = document.querySelectorAll('.btn-primary');
             buttons.forEach(btn => {
-                if (btn.textContent.includes('温柔陪伴') && type === 'sleep') {
+                const voice = btn.getAttribute('data-voice');
+                if (voice === 'sleep' && type === 'sleep') {
                     btn.style.background = 'linear-gradient(135deg, #9333ea, #3b82f6)';
-                    setTimeout(() => {
-                        btn.style.background = 'var(--gradient-warm)';
-                    }, 3000);
-                } else if (btn.textContent.includes('轻柔唤醒') && type === 'wake') {
+                    setTimeout(() => { btn.style.background = 'var(--gradient-warm)'; }, 3000);
+                } else if (voice === 'wake' && type === 'wake') {
                     btn.style.background = 'linear-gradient(135deg, #ea580c, #dc2626)';
-                    setTimeout(() => {
-                        btn.style.background = 'var(--gradient-warm)';
-                    }, 3000);
+                    setTimeout(() => { btn.style.background = 'var(--gradient-warm)'; }, 3000);
                 }
             });
         }
@@ -913,5 +889,6 @@
             }
         });
     </script>
+    <script src="i18n.js"></script>
 </body>
 </html>
